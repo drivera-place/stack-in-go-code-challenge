@@ -2,9 +2,9 @@
 
 This is a code challenge for Stack in Go. 
 
-The first goal is to implement a simple stack in Go.
+- [x] The first goal is to implement a simple stack in Go. 
 
-Second goal is to implement a simple stack in Go that safe for concurrency.
+- [x] Second goal is to implement a simple stack in Go that safe for concurrency.
 
 ## Requirements
 
@@ -21,5 +21,5 @@ go run main.go
 ## How to test
 
 ```Bash
-go test -v
+go test -v -race
 ```
